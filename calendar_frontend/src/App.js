@@ -13,15 +13,7 @@ import { PrivateRoute } from "./components/AuthProvider";
 function App() {
   const [theme, setTheme] = useState("light");
 
-  // Example static test data
-  const exampleEvents = [
-    { title: "Team Meeting", date: "2024-07-05" },
-    { title: "Doctor Appointment", date: "2024-07-07" },
-  ];
-  const exampleTasks = [
-    { id: 1, title: "Finish UI mockups", done: false },
-    { id: 2, title: "QA backend API", done: true },
-  ];
+  // Example data removed. Calendar and TaskList manage all data fetchers internally.
   const exampleReminders = [{ title: "Workshop at 3pm" }];
   const exampleEmails = [
     { subject: "Join event: Team Meeting" },
@@ -62,10 +54,10 @@ function App() {
           <ReminderBanner reminders={exampleReminders} />
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <section className="col-span-1 lg:col-span-2 flex flex-col gap-4">
-              <Calendar events={exampleEvents} />
+              <Calendar />
             </section>
             <section className="col-span-1 flex flex-col gap-4">
-              <TaskList tasks={exampleTasks} />
+              <TaskList />
               <GmailPanel connected={true} emails={exampleEmails} />
             </section>
           </div>
