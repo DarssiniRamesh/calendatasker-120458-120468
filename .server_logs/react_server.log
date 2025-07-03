@@ -6,9 +6,9 @@ Attempting to bind to HOST environment variable: 0.0.0.0
 If this was unintentional, check that you haven't mistakenly set it in your shell.
 Learn more here: https://cra.link/advanced-config
 
-(node:17896) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:19487) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-(node:17896) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:19487) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
 Starting the development server...
 
 Compiled with warnings.
@@ -76,10 +76,158 @@ webpack compiled with 1 warning
 Compiling...
 Failed to compile.
 
-[eslint] 
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+WARNING in [eslint] 
+src/components/AuthProvider.jsx
+  Line 2:25:  'useAuth' is defined but never used  no-unused-vars
+
+src/components/AuthUI.jsx
+  Line 2:18:  'SignUp' is defined but never used  no-unused-vars
+
+ERROR in ./src/components/ReminderBanner.js 6:0-56
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+
+ERROR in [eslint] 
+src/components/api.js
+  Line 75:1:  Import in body of module; reorder to top  import/first
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 2 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+WARNING in [eslint] 
+src/components/AuthProvider.jsx
+  Line 2:25:  'useAuth' is defined but never used  no-unused-vars
+
+src/components/AuthUI.jsx
+  Line 2:18:  'SignUp' is defined but never used  no-unused-vars
+
+ERROR in ./src/components/GmailPanel.js 8:0-56
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+
+ERROR in ./src/components/ReminderBanner.js 6:0-56
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+
+ERROR in [eslint] 
+src/components/api.js
+  Line 75:1:  Import in body of module; reorder to top  import/first
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 3 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+WARNING in [eslint] 
+src/components/AuthProvider.jsx
+  Line 2:25:  'useAuth' is defined but never used  no-unused-vars
+
+src/components/AuthUI.jsx
+  Line 2:18:  'SignUp' is defined but never used  no-unused-vars
+
+ERROR in ./src/components/GmailPanel.js 8:0-56
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+
+ERROR in ./src/components/ReminderBanner.js 6:0-56
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+
+ERROR in [eslint] 
 src/App.js
-  Line 57:33:  'exampleEvents' is not defined  no-undef
-  Line 60:32:  'exampleTasks' is not defined   no-undef
+  Line 49:38:  'exampleReminders' is not defined  no-undef
+  Line 56:52:  'exampleEmails' is not defined     no-undef
+
+src/components/api.js
+  Line 75:1:  Import in body of module; reorder to top  import/first
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 3 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+WARNING in [eslint] 
+src/components/AuthProvider.jsx
+  Line 2:25:  'useAuth' is defined but never used  no-unused-vars
+
+src/components/AuthUI.jsx
+  Line 2:18:  'SignUp' is defined but never used  no-unused-vars
+
+ERROR in ./src/components/GmailPanel.js 8:0-56
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+
+ERROR in ./src/components/ReminderBanner.js 6:0-56
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+
+ERROR in [eslint] 
+src/components/api.js
+  Line 75:1:  Import in body of module; reorder to top  import/first
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 3 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/framer-motion isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 15 hidden lines
+
+WARNING in [eslint] 
+src/components/AuthProvider.jsx
+  Line 2:25:  'useAuth' is defined but never used  no-unused-vars
+
+src/components/AuthUI.jsx
+  Line 2:18:  'SignUp' is defined but never used  no-unused-vars
+
+ERROR in ./src/components/GmailPanel.js 8:0-56
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+
+ERROR in ./src/components/ReminderBanner.js 6:0-56
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+
+ERROR in [eslint] 
+src/components/api.js
+  Line 75:1:  Import in body of module; reorder to top  import/first
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 3 errors and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+WARNING in [eslint] 
+src/components/AuthProvider.jsx
+  Line 2:25:  'useAuth' is defined but never used  no-unused-vars
+
+src/components/AuthUI.jsx
+  Line 2:18:  'SignUp' is defined but never used  no-unused-vars
+
+ERROR in ./src/components/GmailPanel.js 8:0-56
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+
+ERROR in ./src/components/ReminderBanner.js 6:0-56
+Module not found: Error: Can't resolve 'framer-motion' in '/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components'
+
+ERROR in [eslint] 
+src/components/api.js
+  Line 75:1:  Import in body of module; reorder to top  import/first
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 3 errors and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/api.js
+  Line 75:1:  Import in body of module; reorder to top  import/first
 
 Search for the keywords to learn more about each error.
 WARNING in [eslint] 
@@ -90,9 +238,8 @@ src/components/AuthUI.jsx
   Line 2:18:  'SignUp' is defined but never used  no-unused-vars
 
 ERROR in [eslint] 
-src/App.js
-  Line 57:33:  'exampleEvents' is not defined  no-undef
-  Line 60:32:  'exampleTasks' is not defined   no-undef
+src/components/api.js
+  Line 75:1:  Import in body of module; reorder to top  import/first
 
 Search for the keywords to learn more about each error.
 
@@ -101,9 +248,8 @@ Compiling...
 Failed to compile.
 
 [eslint] 
-src/App.js
-  Line 57:33:  'exampleEvents' is not defined  no-undef
-  Line 60:32:  'exampleTasks' is not defined   no-undef
+src/components/api.js
+  Line 75:1:  Import in body of module; reorder to top  import/first
 
 Search for the keywords to learn more about each error.
 WARNING in [eslint] 
@@ -114,13 +260,99 @@ src/components/AuthUI.jsx
   Line 2:18:  'SignUp' is defined but never used  no-unused-vars
 
 ERROR in [eslint] 
-src/App.js
-  Line 57:33:  'exampleEvents' is not defined  no-undef
-  Line 60:32:  'exampleTasks' is not defined   no-undef
+src/components/api.js
+  Line 75:1:  Import in body of module; reorder to top  import/first
 
 Search for the keywords to learn more about each error.
 
 webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/api.js
+  Line 71:1:  Import in body of module; reorder to top  import/first
+
+Search for the keywords to learn more about each error.
+WARNING in [eslint] 
+src/components/AuthProvider.jsx
+  Line 2:25:  'useAuth' is defined but never used  no-unused-vars
+
+src/components/AuthUI.jsx
+  Line 2:18:  'SignUp' is defined but never used  no-unused-vars
+
+ERROR in [eslint] 
+src/components/api.js
+  Line 71:1:  Import in body of module; reorder to top  import/first
+
+Search for the keywords to learn more about each error.
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+[eslint] 
+src/components/api.js
+Syntax error: Identifier 'useState' has already been declared. (72:9) (72:9)
+WARNING in [eslint] 
+src/components/AuthProvider.jsx
+  Line 2:25:  'useAuth' is defined but never used  no-unused-vars
+
+src/components/AuthUI.jsx
+  Line 2:18:  'SignUp' is defined but never used  no-unused-vars
+
+ERROR in ./src/components/api.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/src/components/api.js: Identifier 'useState' has already been declared. (72:9)
+
+  70 | }
+  71 |
+> 72 | import { useState, useEffect, useCallback } from "react";
+     |          ^
+  73 | /**
+  74 |  * PUBLIC_INTERFACE
+  75 |  * React hook: Provides { reminders, refresh, loading, error } with polling of reminders.
+    at constructor (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:360:19)
+    at FlowParserMixin.raise (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:3327:19)
+    at FlowScopeHandler.checkRedeclarationInScope (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:1555:19)
+    at FlowScopeHandler.declareName (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:1521:12)
+    at FlowScopeHandler.declareName (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:1622:11)
+    at FlowParserMixin.declareNameFromIdentifier (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:7476:16)
+    at FlowParserMixin.checkIdentifier (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:7472:12)
+    at FlowParserMixin.checkLVal (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:7413:12)
+    at FlowParserMixin.finishImportSpecifier (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:13898:10)
+    at FlowParserMixin.parseImportSpecifier (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:5680:17)
+    at FlowParserMixin.parseNamedImportSpecifiers (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:14033:36)
+    at FlowParserMixin.parseImportSpecifiersAndAfter (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:13875:37)
+    at FlowParserMixin.parseImport (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:13868:17)
+    at FlowParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:12514:27)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:12406:17)
+    at FlowParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:5140:24)
+    at FlowParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:12383:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:12960:36)
+    at FlowParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:12953:10)
+    at FlowParserMixin.parseProgram (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:12280:10)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:12270:25)
+    at FlowParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:5909:28)
+    at FlowParserMixin.parse (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:14120:10)
+    at parse (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/parser/lib/index.js:14154:38)
+    at parser (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/gensync/index.js:261:32)
+    at /home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/kavia/workspace/code-generation/calendatasker-120458-120468/calendar_frontend/node_modules/gensync/index.js:223:11)
+
+ERROR in [eslint] 
+src/components/api.js
+  Line 72:9:  Parsing error: Identifier 'useState' has already been declared. (72:9)
+
+webpack compiled with 2 errors and 1 warning
 Compiling...
 Compiled with warnings.
 
